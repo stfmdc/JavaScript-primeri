@@ -26,5 +26,11 @@ var area = 2 * r * pi;
 var string = "Obim kruga iz gornje linije koda je";
 console.log(string, area, "centimetara.");
 
-// Homework - kupovina 30 telefona sa ukljuneom taksom od 5%
-var 
+// Homework - kupovina 30 telefona
+var brojTelefona = 30;
+var nabavnaCena = 119.95; // cena u dolarima
+var pdv = 5; // pdv/tax rate
+var cenaBezPdv = brojTelefona * nabavnaCena;
+var cenaSaPdv = cenaBezPdv * (1 + pdv / 100);
+console.log("Cena za 30 telefona bez PDV-a iznosi:", cenaBezPdv, "dolara.");
+console.log("Cena za 30 telefona sa PDV-om iznosi:", cenaSaPdv, "dolara.");
