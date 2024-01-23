@@ -122,24 +122,112 @@
 // }
 
 // Function declarations
-sumNumbers(1,2);
-subtractNumbers(1,2);
-multiplyNumbers(1,2);
+// sumNumbers(1,2);
+// subtractNumbers(1,2);
+// multiplyNumbers(1,2);
 
-function sumNumbers(x, y) {
-    let result = x + y;
-    console.log(sumNumbers);
-    return result;
-}
+// function sumNumbers(x, y) {
+//     let result = x + y;
+//     console.log(sumNumbers);
+//     return result;
+// }
 
-function subtractNumbers(x, y){
-    let result = x - y;
-    console.log(subtractNumbers);
-    return result;
-}
+// function subtractNumbers(x, y){
+//     let result = x - y;
+//     console.log(subtractNumbers);
+//     return result;
+// }
 
-function multiplyNumbers(x, y){
-    let result = x * y;
-    console.log(multiplyNumbers);
-    return result;
-}
+// function multiplyNumbers(x, y){
+//     let result = x * y;
+//     console.log(multiplyNumbers);
+//     return result;
+// }
+
+// function simpleFunction () {
+//     //lots of code
+//     let foo = 500; //local varable
+//     //lots of code
+//     console.log(foo, "from function"); //500
+// }
+// simpleFunction();
+// console.log(foo, "from global"); //undefined
+
+// function simpleFunction () {
+//     //lots of code
+//     let foo = 500; //local varable
+//     //lots of code
+//     console.log(foo, "from function"); //500
+//     return foo
+// }
+// simpleFunction();
+// let foo = simpleFunction();
+// console.log(foo, "from global"); //global
+
+// let foo = 500; //global varable
+// function simpleFunction() {
+//     //lots of code
+//     foo = 600; //globar varable // dodati let ispred za primer //
+//     //lots of code
+//     console.log(foo); //600
+// }
+// simpleFunction();
+// console.log(foo); //600
+
+// function foo(){
+//     a = 1 //`a` not formally declared
+// }
+// foo();
+// console.log(a);
+
+// let message = "Outside the function";
+// function warning(message) {
+//     console.log(a); // 1--oops, auto global var
+//     console.log(message);
+// }
+// warning("Inside the function");
+// console.log(message);
+
+// var fullMoon = true;
+// let species = "human"; //initialize a global var
+// if (fullMoon) {
+//     let species = "werewolf" //initialize a block-scoped var
+//     console.log(`It is a full moon. Lupin is currently a ${species}.`);
+// }
+// console.log(`It is not a full moon. Lupin is currently a ${species}.`);
+
+// function celzijusToFarenhajt(celzijus) {
+//     var farenhajt = (celzijus * 1.8) + 32;
+//     return farenhajt;
+// }
+
+// var celzijus = 5;
+// var farenhajt = celzijusToFarenhajt(celzijus);
+// console.log(celzijus + " stepeni celzijusa je isto što i " + farenhajt + " stepeni farenhajta.");
+
+// function farenhajtToCelzijus(farenhajt) {
+//     var celzijus = (5/9) * (farenhajt - 32);
+//     return celzijus;
+// }
+
+// var farenhajt = 41;
+// var celzijus = farenhajtToCelzijus(farenhajt);
+// console.log(farenhajt + " stepeni farenhajta je isto što i " + celzijus + " stepeni celzijusa.");
+
+// // uraditi oba primera i sa prompt, ako je NaN onda poruka o gresci
+
+
+// let currentYear = new Date().getFullYear(); //moze i 2024 ili godina po izboru
+// let birthYear = 1994;
+// let calculateAge = currentYear - birthYear;
+// console.log("Trenutno imam " + calculateAge + " godina.");
+
+// let birthYear = 1994;
+// let currentYear = 2024;
+// function calculateAge(birthYear) {
+//     let currentAge = currentYear - birthYear;
+//     return currentAge;
+//   }
+//   let currentAge = calculateAge(birthYear);
+//   console.log("Trenutno imam " + currentAge + " godina.");
+  
